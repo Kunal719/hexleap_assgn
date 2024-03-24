@@ -53,13 +53,13 @@ const Home = () => {
 
 
                 {/* Collection Spotlight  */}
-                <div className='inside-wrapper-2 lg:items-center flex flex-col justify-between mt-10 dark:bg-gradient-to-t from-[#18282A] to-[#221A2C] '>
+                <div className='inside-wrapper-2 items-start lg:items-center flex flex-col justify-between mt-10 dark:bg-gradient-to-t from-[#18282A] to-[#221A2C] '>
                     <h2 className='h2-bold'>Collection Spotlight</h2>
                     <p className='text-sm lg:text-center mt-5 max-sm:text-start'>
                         Discover extraordinary moments with our Spotlight Collection metatickets—exclusive access to premium events for an unforgettable experience. Grab yours today!
                     </p>
 
-                    <div className='flex md:items-center max-md:mr-36 w-full max-md:max-w-[400px] max-md:ml-24 max-sm:max-w-[200px] max-sm:mr-8'>
+                    <div className='flex md:items-center max-md:mr-36 w-full max-md:max-w-[400px] max-md:ml-24 max-sm:max-w-[230px] max-sm:mr-8 max-[400px]:max-w-[175px]  max-[400px]:ml-8'>
                         <Carousel className='mt-10 w-full' opts={{ align: 'start', loop: true }}>
                             <CarouselContent>
                                 {carousels.map((carousel) => (
